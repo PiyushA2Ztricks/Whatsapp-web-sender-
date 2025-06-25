@@ -4,7 +4,7 @@
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
-  },
+  }
   "dependencies": {
   "@whiskeysockets/baileys": "^6.7.3",
   "@hapi/boom": "^10.0.0"
