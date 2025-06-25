@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Offline WhatsApp Chat</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    input, button, select { display: block; margin: 10px 0; padding: 8px; width: 100%; max-width: 400px; }
+    img { max-width: 200px; }
+  </style>
+</head>
+<body>
+  <h1>OFFLINE WHATSAPP CHAT</h1>
+  <input id="target" placeholder="Target Phone Number (+919...)">
+  <select id="mode">
+    <option value="qr">Use QR</option>
+    <option value="creds">Use creds.json</option>
+  </select>
+  <input type="file" id="creds">
+  <input type="file" id="msg">
+  <input id="delay" type="number" placeholder="Delay Time (seconds)">
+  <input id="count" type="number" placeholder="Repeat count">
+  <button id="start">START SESSION</button>
+  <img id="qrimg" src="" alt="">
+  
+  <script src="app.js"></script>
+</body>
+</html>
